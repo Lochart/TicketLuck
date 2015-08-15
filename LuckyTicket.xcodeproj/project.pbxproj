@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9515D6571B4D75F00002181A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515D6561B4D75F00002181A /* AppDelegate.swift */; };
+		9515D6591B4D75F00002181A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515D6581B4D75F00002181A /* ViewController.swift */; };
+		9515D65C1B4D75F00002181A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9515D65A1B4D75F00002181A /* Main.storyboard */; };
+		9515D65E1B4D75F00002181A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9515D65D1B4D75F00002181A /* Images.xcassets */; };
+		9515D6611B4D75F00002181A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9515D65F1B4D75F00002181A /* LaunchScreen.xib */; };
+		9515D66D1B4D75F00002181A /* LuckyTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515D66C1B4D75F00002181A /* LuckyTicketTests.swift */; };
+		9515D6771B4D770A0002181A /* YourVoucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515D6761B4D770A0002181A /* YourVoucher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9515D6671B4D75F00002181A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9515D6491B4D75F00002181A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9515D6501B4D75F00002181A;
+			remoteInfo = LuckyTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9515D6511B4D75F00002181A /* LuckyTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9515D6551B4D75F00002181A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9515D6561B4D75F00002181A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9515D6581B4D75F00002181A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9515D65B1B4D75F00002181A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9515D65D1B4D75F00002181A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9515D6601B4D75F00002181A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9515D6661B4D75F00002181A /* LuckyTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9515D66B1B4D75F00002181A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9515D66C1B4D75F00002181A /* LuckyTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyTicketTests.swift; sourceTree = "<group>"; };
+		9515D6761B4D770A0002181A /* YourVoucher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourVoucher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9515D64E1B4D75F00002181A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9515D6631B4D75F00002181A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9515D6481B4D75F00002181A = {
+			isa = PBXGroup;
+			children = (
+				9515D6531B4D75F00002181A /* LuckyTicket */,
+				9515D6691B4D75F00002181A /* LuckyTicketTests */,
+				9515D6521B4D75F00002181A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9515D6521B4D75F00002181A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9515D6511B4D75F00002181A /* LuckyTicket.app */,
+				9515D6661B4D75F00002181A /* LuckyTicketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9515D6531B4D75F00002181A /* LuckyTicket */ = {
+			isa = PBXGroup;
+			children = (
+				9515D6561B4D75F00002181A /* AppDelegate.swift */,
+				9515D6581B4D75F00002181A /* ViewController.swift */,
+				9515D65A1B4D75F00002181A /* Main.storyboard */,
+				9515D6761B4D770A0002181A /* YourVoucher.swift */,
+				9515D65D1B4D75F00002181A /* Images.xcassets */,
+				9515D65F1B4D75F00002181A /* LaunchScreen.xib */,
+				9515D6541B4D75F00002181A /* Supporting Files */,
+			);
+			path = LuckyTicket;
+			sourceTree = "<group>";
+		};
+		9515D6541B4D75F00002181A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9515D6551B4D75F00002181A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9515D6691B4D75F00002181A /* LuckyTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				9515D66C1B4D75F00002181A /* LuckyTicketTests.swift */,
+				9515D66A1B4D75F00002181A /* Supporting Files */,
+			);
+			path = LuckyTicketTests;
+			sourceTree = "<group>";
+		};
+		9515D66A1B4D75F00002181A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9515D66B1B4D75F00002181A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9515D6501B4D75F00002181A /* LuckyTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9515D6701B4D75F00002181A /* Build configuration list for PBXNativeTarget "LuckyTicket" */;
+			buildPhases = (
+				9515D64D1B4D75F00002181A /* Sources */,
+				9515D64E1B4D75F00002181A /* Frameworks */,
+				9515D64F1B4D75F00002181A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyTicket;
+			productName = LuckyTicket;
+			productReference = 9515D6511B4D75F00002181A /* LuckyTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9515D6651B4D75F00002181A /* LuckyTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9515D6731B4D75F00002181A /* Build configuration list for PBXNativeTarget "LuckyTicketTests" */;
+			buildPhases = (
+				9515D6621B4D75F00002181A /* Sources */,
+				9515D6631B4D75F00002181A /* Frameworks */,
+				9515D6641B4D75F00002181A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9515D6681B4D75F00002181A /* PBXTargetDependency */,
+			);
+			name = LuckyTicketTests;
+			productName = LuckyTicketTests;
+			productReference = 9515D6661B4D75F00002181A /* LuckyTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9515D6491B4D75F00002181A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Nikolay;
+				TargetAttributes = {
+					9515D6501B4D75F00002181A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					9515D6651B4D75F00002181A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 9515D6501B4D75F00002181A;
+					};
+				};
+			};
+			buildConfigurationList = 9515D64C1B4D75F00002181A /* Build configuration list for PBXProject "LuckyTicket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9515D6481B4D75F00002181A;
+			productRefGroup = 9515D6521B4D75F00002181A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9515D6501B4D75F00002181A /* LuckyTicket */,
+				9515D6651B4D75F00002181A /* LuckyTicketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9515D64F1B4D75F00002181A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9515D65C1B4D75F00002181A /* Main.storyboard in Resources */,
+				9515D6611B4D75F00002181A /* LaunchScreen.xib in Resources */,
+				9515D65E1B4D75F00002181A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9515D6641B4D75F00002181A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9515D64D1B4D75F00002181A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9515D6771B4D770A0002181A /* YourVoucher.swift in Sources */,
+				9515D6591B4D75F00002181A /* ViewController.swift in Sources */,
+				9515D6571B4D75F00002181A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9515D6621B4D75F00002181A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9515D66D1B4D75F00002181A /* LuckyTicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9515D6681B4D75F00002181A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9515D6501B4D75F00002181A /* LuckyTicket */;
+			targetProxy = 9515D6671B4D75F00002181A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9515D65A1B4D75F00002181A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9515D65B1B4D75F00002181A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9515D65F1B4D75F00002181A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9515D6601B4D75F00002181A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9515D66E1B4D75F00002181A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9515D66F1B4D75F00002181A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9515D6711B4D75F00002181A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckyTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9515D6721B4D75F00002181A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckyTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9515D6741B4D75F00002181A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LuckyTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyTicket.app/LuckyTicket";
+			};
+			name = Debug;
+		};
+		9515D6751B4D75F00002181A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LuckyTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyTicket.app/LuckyTicket";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9515D64C1B4D75F00002181A /* Build configuration list for PBXProject "LuckyTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9515D66E1B4D75F00002181A /* Debug */,
+				9515D66F1B4D75F00002181A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9515D6701B4D75F00002181A /* Build configuration list for PBXNativeTarget "LuckyTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9515D6711B4D75F00002181A /* Debug */,
+				9515D6721B4D75F00002181A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9515D6731B4D75F00002181A /* Build configuration list for PBXNativeTarget "LuckyTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9515D6741B4D75F00002181A /* Debug */,
+				9515D6751B4D75F00002181A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9515D6491B4D75F00002181A /* Project object */;
+}
